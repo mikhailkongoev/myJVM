@@ -1,0 +1,10 @@
+int i = 6;
+if (i % 2 == 0) {
+    if (i % 4 == 0) {
+        System.out.print(i);
+    }
+
+} else {
+    System.out.print(i);
+}
+System.out.print(i);

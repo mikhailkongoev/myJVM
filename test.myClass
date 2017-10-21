@@ -1,0 +1,22 @@
+0: psh 6
+1: st 0
+2: ld 0
+3: psh 2
+4: mod
+5: psh 0
+6: eq
+7: ifez 17
+8: ld 0
+9: psh 4
+10: mod
+11: psh 0
+12: eq
+13: ifez 16
+14: ld 0
+15: prnt
+16: jmp 19
+17: ld 0
+18: prnt
+19: ld 0
+20: prnt
+21: rtrn
